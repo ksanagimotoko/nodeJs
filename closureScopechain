@@ -1,0 +1,21 @@
+variable is removed when meet closeScope.
+
+so closure is very simple.
+
+
+function outer() {
+  
+    var b = 'B';
+    
+    function inner() {
+        console.log(b);
+     }
+     
+    
+    return inner;
+ }
+ 
+ 
+ 
+ var someFunction = outer();
+ someFunction();  // call Inner Function
