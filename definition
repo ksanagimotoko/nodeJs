@@ -1,0 +1,11 @@
+Package is a set of external Modules.
+
+npm : Node Packeage Manager 
+
+npm install nconf  // nconf is a package (about environmental variable). You can find package in [node_modules Folder]
+
+package.json is a file which have package List. You can make this file from 'npm init' command.
+
+npm uninstall nconf // uninstall nconf
+npm install nconf --save // add this to dependencies.
+
