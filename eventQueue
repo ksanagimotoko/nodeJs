@@ -1,0 +1,18 @@
+
+single Thread means one callStack!
+
+When callStack is empty, EventFunction go to CallStack From Queue.
+
+
+|    |
+|    |
+|    |
+|    |
+------
+callStack
+
+
+Queue
+|-----------------------------
+|[event] [event] [event]
+|----------------------------
